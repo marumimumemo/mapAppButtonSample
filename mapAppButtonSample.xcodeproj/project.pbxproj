@@ -13,6 +13,7 @@
 		A6630ECF244844C400F82227 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6630ECD244844C400F82227 /* Main.storyboard */; };
 		A6630ED1244844C400F82227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6630ED0244844C400F82227 /* Assets.xcassets */; };
 		A6630ED4244844C400F82227 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6630ED2244844C400F82227 /* LaunchScreen.storyboard */; };
+		A6630EDC2448457A00F82227 /* URLSchemeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6630EDB2448457A00F82227 /* URLSchemeHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A6630ED0244844C400F82227 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6630ED3244844C400F82227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6630ED5244844C400F82227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6630EDB2448457A00F82227 /* URLSchemeHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSchemeHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				A6630EC7244844C400F82227 /* AppDelegate.swift */,
 				A6630EC9244844C400F82227 /* SceneDelegate.swift */,
 				A6630ECB244844C400F82227 /* ViewController.swift */,
+				A6630EDB2448457A00F82227 /* URLSchemeHelper.swift */,
 				A6630ECD244844C400F82227 /* Main.storyboard */,
 				A6630ED0244844C400F82227 /* Assets.xcassets */,
 				A6630ED2244844C400F82227 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6630EDC2448457A00F82227 /* URLSchemeHelper.swift in Sources */,
 				A6630ECC244844C400F82227 /* ViewController.swift in Sources */,
 				A6630EC8244844C400F82227 /* AppDelegate.swift in Sources */,
 				A6630ECA244844C400F82227 /* SceneDelegate.swift in Sources */,

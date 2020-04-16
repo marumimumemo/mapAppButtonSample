@@ -12,9 +12,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func mapAppButtonTapped() {
+        let address = "東京都練馬区"
+        URLSchemeHelper.map(address: address)
+    }
 }
 
